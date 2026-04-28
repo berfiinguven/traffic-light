@@ -1,0 +1,74 @@
+body {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+    traffic-light {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+}
+
+.light {
+  width: 150px;
+  height: 150px;
+  border: 10px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  .red {
+    background-color: red;
+    border:10x solid darkred;
+
+}
+
+ .yellow {
+    background-color: yellow;
+    border:10x solid goldenrod;
+
+}
+
+ .green {
+    background-color: green;
+    border: 10x solid darkgreen;
+ }
+ .small-light {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.5);
+ }
+ .small-light {
+    width:70px;
+    height:70px;
+    background-color: rgba(255, 255, 255, 0.5);
+ }
+small-light {
+    width:70px;
+    height: 70px;
+    background-color:rgba(255, 255, 255, 0.5) ;
+}
+
+ 
+ light-red {
+    background-color: lightcoral;
+
+}
+ 
+ light-yellow {
+    background-color: lightyellow;
+
+}
+
+  light-green {
+    background-color: lightgreen;
+
+}
+ 
